@@ -1,20 +1,21 @@
 
-#Project Description
+# Project Description
 This project was conducted in collaboration with three fellow classmates as part of a methodology course during my pre-master's studies. The objective was to define a research question using a dataset that contains at least 12 features.
 
  
 
-#Dataset & Exploration
+# Dataset & Exploration
+
 We used a dataset of life expectancy from Kaggle and inspected the data by its type and identified variables we were going to use.
 
  
 
-#Research question
+# Research question
 What will be the life expectancy based on economic and health parameters?
 
  
 
-#Data Preprocessing, Models and Evaluation
+# Data Preprocessing, Models and Evaluation
 The data were partitioned into Training (70%), Validation (20%), and Test (10%) sets.
 
 We built three linear regression models using the lm() function: m0, m1, and m2.
@@ -30,7 +31,7 @@ Mean squared error scores (MSE scores) are used to provide insights into which r
 
  
 
-#Findings and Conclusion
+# Findings and Conclusion
 
 ![MSE and R2 from all the models](https://github.com/Bunnybunny1120/machine_learning_R/blob/main/output.png)
 
@@ -41,12 +42,11 @@ M1 MSE: Train, Validation = 31.12, 27.91  R2: Train, Validation = 0.61, 0.67
 M2 MSE: Train, Validation =34.10, 29.15  R2: Train, Validation = 0.66, 0.72
 
 
-M1:
-
+### M1:
 Lower MSE on the validation dataset.
 Slightly lower R2 values for both training and validation.
-M2:
 
+### M2:
 Slightly higher MSE on the validation dataset.
 Slightly higher R2 values for both training and validation.
  
