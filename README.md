@@ -6,7 +6,7 @@ This project was conducted in collaboration with three fellow classmates as part
 
 # Dataset & Exploration
 
-We used a dataset of life expectancy from Kaggle and inspected the data by its type and identified variables we were going to use.
+We used a dataset of life expectancy from [Kaggle](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who) and inspected the data by its type and identified variables we were going to use.
 
  
 
