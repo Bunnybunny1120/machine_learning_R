@@ -1,6 +1,5 @@
 dataset <- read.csv(paste(getwd(), "/Life Expectancy Data.csv", sep = ""),
                     header = TRUE, sep = ",")
-dataset <- read.csv('/Users/rong/Documents/DSS/PM DSS/Methodology for premsters DSS/project methodology/Life Expectancy Data.csv')
 
 head(dataset,10)
 
