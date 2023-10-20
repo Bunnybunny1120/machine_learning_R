@@ -18,14 +18,16 @@ What will be the life expectancy based on economic and health parameters?
 # Data Preprocessing, Models and Evaluation
 The data were partitioned into Training (70%), Validation (20%), and Test (10%) sets.
 
-We built three linear regression models using the lm() function: m0, m1, and m2.
+We built three linear regression models using the lm() function: M0, M1, and M2.
 
 
 Life expectancy is the target variable.
 
-m0 serves as the baseline model and does not include any features (an intercept-only model).
-m1 contains all 13 features.
-m2 includes a subset of features (9)from m1 for model comparison.
+M0 serves as the baseline model and does not include any features (an intercept-only model).
+
+M1 contains all 13 features.
+
+M2 includes a subset of features (9)from m1 for model comparison.
  
 Mean squared error scores (MSE scores) are used to provide insights into which regression model aligns the closest with the set of data points in the training and validation sets. R-squared (R2) helps us understand the proportion of variance explained by the model.
 
